@@ -2941,8 +2941,8 @@ function! s:CreateAdditionalMaps ()
 	" templates
 	"-------------------------------------------------------------------------------
 	if s:C_Ctrl_j == 'on'
-		nnoremap  <buffer>  <silent>  <C-j>       i<C-R>=C_JumpCtrlJ()<CR>
-		inoremap  <buffer>  <silent>  <C-j>  <C-G>u<C-R>=C_JumpCtrlJ()<CR>
+		nnoremap  <buffer>  <silent>  <Leader><C-j>       i<C-R>=C_JumpCtrlJ()<CR>
+		inoremap  <buffer>  <silent>  <Leader><C-j>  <C-G>u<C-R>=C_JumpCtrlJ()<CR>
 	endif
 	"
 	" ----------------------------------------------------------------------------
